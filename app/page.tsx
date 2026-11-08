@@ -156,8 +156,23 @@ export default function Home() {
           </div>
                     <div className="portfolio-grid portfolio-grid--no-photos">
             <article className="portfolio-card">
-              <div className="portfolio-art portfolio-art--digital"><Code2 size={42} strokeWidth={1.2} aria-hidden="true" /></div>
-              <div className="portfolio-caption"><div><p className="eyebrow">Digital · Web</p><h3>Clear online presence</h3></div><span>01</span></div>
+              <div className="portfolio-art portfolio-art--digital">
+                <div className="portfolio-projects">
+                  <a className="portfolio-project" href="https://jasonvictor.online" target="_blank" rel="noreferrer">
+                    <span className="portfolio-project__name">jasonvictor.online</span>
+                    <span className="portfolio-project__type">Website</span>
+                  </a>
+                  <a className="portfolio-project" href="https://victorvisuals.tech" target="_blank" rel="noreferrer">
+                    <span className="portfolio-project__name">victorvisuals.tech</span>
+                    <span className="portfolio-project__type">Website</span>
+                  </a>
+                  <div className="portfolio-project portfolio-project--progress">
+                    <span className="portfolio-project__name">Homestead Assembly</span>
+                    <span className="portfolio-project__type">In progress</span>
+                  </div>
+                </div>
+              </div>
+              <div className="portfolio-caption"><div><p className="eyebrow">Digital · Web</p><h3>Website projects</h3></div><span>01</span></div>
             </article>
             <article className="portfolio-card">
               <div className="portfolio-art portfolio-art--creative"><Camera size={42} strokeWidth={1.2} aria-hidden="true" /></div>
