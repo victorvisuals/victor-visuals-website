@@ -386,3 +386,13 @@ img { max-width: 100%; }
 
 .price-grid--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 @media (max-width: 620px) { .price-grid--two { grid-template-columns: 1fr; } }
+
+
+.portfolio-art--digital { padding: 20px; }
+.portfolio-projects { position: relative; z-index: 1; display: grid; width: 100%; gap: 9px; }
+.portfolio-project { display: grid; gap: 4px; padding: 10px 12px; border: 1px solid rgba(231,209,154,.24); background: rgba(15,25,32,.82); color: #fffefa; }
+a.portfolio-project { text-decoration: none; transition: border-color .18s ease, background-color .18s ease; }
+a.portfolio-project:hover, a.portfolio-project:focus-visible { border-color: var(--gold-light); background: rgba(15,25,32,.96); }
+.portfolio-project__name { font-size: 10px; font-weight: 700; overflow-wrap: anywhere; }
+.portfolio-project__type { color: #c3c9c8; font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
+.portfolio-project--progress { border-style: dashed; }
