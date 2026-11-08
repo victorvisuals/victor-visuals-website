@@ -388,3 +388,7 @@ img { max-width: 100%; }
   .portfolio-art { min-height: 190px; aspect-ratio: 1.18; }
   .about-brand-art { aspect-ratio: 1.05; }
 }
+
+
+.price-grid--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 620px) { .price-grid--two { grid-template-columns: 1fr; } }
