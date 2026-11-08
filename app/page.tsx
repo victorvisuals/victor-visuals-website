@@ -14,7 +14,6 @@ const photoPrices = [
 ];
 
 const videoPrices = [
-  { name: "Promotional video", price: "$200", detail: "Short-form project" },
   { name: "Business / ministry video", price: "$350", detail: "Project-based" },
   { name: "Event videography", price: "$150", detail: "Per hour · 2-hour minimum" },
 ];
