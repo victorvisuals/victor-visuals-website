@@ -84,8 +84,6 @@ img { max-width: 100%; }
 .hero-mark-card span { align-self: end; font-family: var(--display-font); font-size: 19px; }
 .hero-mark-card small { align-self: start; margin-top: 4px; color: var(--muted); font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
 .hero-side-note { position: absolute; top: 8%; right: -36px; color: rgba(255,255,255,.62); font-size: 8px; letter-spacing: .24em; writing-mode: vertical-rl; }
-.scroll-cue { position: absolute; right: max(32px, calc((100vw - 1180px) / 2)); bottom: 31px; display: inline-flex; align-items: center; gap: 11px; color: #d4d8d7; font-size: 9px; letter-spacing: .13em; text-transform: uppercase; }
-.scroll-cue svg { color: var(--gold-light); }
 .intro-strip { background: var(--gold); color: var(--ink); }
 .intro-strip__inner { display: flex; min-height: 88px; align-items: center; justify-content: space-between; gap: 24px; }
 .intro-strip__inner > p { max-width: 450px; margin: 0; font-family: var(--display-font); font-size: 19px; }
@@ -156,8 +154,6 @@ img { max-width: 100%; }
 .tech-copy-card h3 { margin: 25px 0 11px; font-family: var(--display-font); font-size: 28px; font-weight: 400; line-height: 1.1; }
 .tech-copy-card > p { margin: 0; color: #c3c9c8; font-size: 12px; line-height: 1.75; }
 .text-link { display: inline-flex; align-items: center; gap: 9px; margin-top: 23px; color: #8d6e31; font-size: 11px; font-weight: 700; }
-.text-link svg { transition: transform .2s ease; }
-.text-link:hover svg { transform: translateX(4px); }
 .tech-copy-card .text-link { color: var(--gold-light); }
 .tech-price-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .tech-price-grid .price-card { min-height: 155px; }
@@ -226,7 +222,6 @@ img { max-width: 100%; }
 .footer-brand small { color: #a9b0af; font-family: var(--body-font); font-size: 8px; letter-spacing: .03em; }
 .site-footer__inner > p { margin: 0; color: #8f9999; font-size: 9px; }
 .footer-top { display: inline-flex; align-items: center; gap: 7px; color: #c3c7c3; font-size: 9px; }
-.footer-top svg { transform: rotate(-45deg); }
 .footer-top:hover { color: var(--gold-light); }
 
 @media (max-width: 1060px) {
@@ -290,8 +285,7 @@ img { max-width: 100%; }
   .hero-photo-frame { aspect-ratio: .9; }
   .hero-mark-card { left: -20%; }
   .hero-side-note { right: -23px; font-size: 7px; }
-  .scroll-cue { right: 18px; bottom: 20px; font-size: 8px; }
-  .intro-strip__inner > p { font-size: 17px; }
+    .intro-strip__inner > p { font-size: 17px; }
   .intro-strip__tags span { font-size: 9px; }
   .content-section { padding: 78px 0; }
   .section-heading { margin-bottom: 34px; }
