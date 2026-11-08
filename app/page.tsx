@@ -1,13 +1,5 @@
 import Image from "next/image";
-import {
-  ArrowDownRight,
-  ArrowRight,
-  Camera,
-  Code2,
-  Laptop,
-  MonitorCog,
-  Video,
-} from "lucide-react";
+import { Camera, Code2, Laptop, MonitorCog, Video } from "lucide-react";
 import QuoteRequest from "@/components/QuoteRequest";
 
 const websitePrices = [
@@ -58,7 +50,7 @@ export default function Home() {
             <h1>Stories through the lens.<span>Solutions beyond the frame.</span></h1>
             <p className="hero-description">Creative media and practical technology for small businesses, churches, ministries, individuals, and professionals.</p>
             <div className="hero-actions">
-              <a className="button button--gold" href="#digital">Explore services <ArrowRight size={17} aria-hidden="true" /></a>
+              <a className="button button--gold" href="#digital">Explore services </a>
               <a className="button button--outline-light" href="#contact">Request a quote</a>
             </div>
             <div className="hero-meta"><span>Introductory launch pricing</span><span className="hero-meta__dot" /><span>Remote and in-person</span></div>
@@ -77,7 +69,6 @@ export default function Home() {
             <span className="hero-side-note" aria-hidden="true">EST. WITH INTENTION</span>
           </div>
         </div>
-        <a className="scroll-cue" href="#digital" aria-label="Scroll to digital services"><span>Discover what we do</span><ArrowDownRight size={18} aria-hidden="true" /></a>
       </section>
 
       <section className="intro-strip" aria-label="Service overview">
@@ -150,7 +141,7 @@ export default function Home() {
               <span className="tech-copy-card__icon"><MonitorCog size={25} aria-hidden="true" /></span>
               <h3>Practical technology, made personal.</h3>
               <p>Get a second opinion on what to buy, plan a workspace around the way you work, or have the core equipment set up and organized.</p>
-              <a className="text-link" href="#contact">Talk through a setup <ArrowRight size={16} aria-hidden="true" /></a>
+              <a className="text-link" href="#contact">Talk through a setup </a>
             </div>
             <div className="tech-price-grid">{technologyPrices.map((item) => <PriceCard key={item.name} {...item} />)}</div>
           </div>
@@ -194,7 +185,7 @@ export default function Home() {
             <p>Victor Visuals brings visual craft and useful technology together. The work spans websites, photography, videography, and hands-on workstation support—helping people communicate clearly and feel confident in the tools they use.</p>
             <p>Based on a simple idea: good work should make the next step easier. Whether it is a new website, a moment worth keeping, or a desk that finally works the way you do, each project starts with listening and a clear plan.</p>
             <div className="about-audience"><span>Small businesses</span><span>Churches &amp; ministries</span><span>Individuals &amp; professionals</span></div>
-            <a className="text-link" href="#contact">Start a conversation <ArrowRight size={16} aria-hidden="true" /></a>
+            <a className="text-link" href="#contact">Start a conversation </a>
           </div>
         </div>
       </section>
@@ -224,7 +215,7 @@ export default function Home() {
         <div className="site-container site-footer__inner">
           <a className="footer-brand" href="#home"><Image src="/images/logo.png" alt="" width={38} height={38} /><span>Victor Visuals<small>Stories through the lens. Solutions beyond the frame.</small></span></a>
           <p>© {new Date().getFullYear()} Victor Visuals · Creative media &amp; technology</p>
-          <a href="#home" className="footer-top">Back to top <ArrowDownRight size={15} aria-hidden="true" /></a>
+          <a href="#home" className="footer-top">Back to top </a>
         </div>
       </footer>
     </>
