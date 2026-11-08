@@ -12,8 +12,8 @@ The quote form prepares an email addressed to `victorvisuals.prod@gmail.com`. It
 
 ## Introductory launch pricing
 
-- Websites: Starter $500, Professional $850, Advanced/custom $1,500+; redesigns $350+; additional page $75.
-- Maintenance: Basic $40/month; Standard $85/month.
+- Websites: Starter $500 (3 pages), Professional $850 (5 pages); redesigns $350+; additional page $60.
+- Maintenance: Basic $50/month; Standard $85/month.
 - Photography: Portrait $100; branding $175; events $125/hour (2-hour minimum).
 - Videography: Promotional $200; business/ministry $350; events $150/hour (2-hour minimum); editing $75+.
 - Technology: Consultation $35; equipment recommendations $50; basic workstation $100; complete workstation $200+.
