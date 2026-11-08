@@ -22,4 +22,4 @@ Equipment, materials, hosting, domain registration, software, and travel may cos
 
 ## Photos and privacy
 
-This repository contains the Victor Visuals logo only. Portfolio and client photos are intentionally excluded. Do not add or publish client imagery without explicit permission. Search indexing is disabled in the site configuration. This push does not deploy the site or change domain settings.
+This repository contains the Victor Visuals logo and the approved About portrait used as the home-page cover. Other portfolio and client photos remain excluded unless their publishing is approved. Search indexing is disabled in the site configuration. This push does not deploy the site or change domain settings.
