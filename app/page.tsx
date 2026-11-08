@@ -58,7 +58,7 @@ export default function Home() {
 
           <div className="hero-visual">
             <div className="hero-photo-frame">
-              <div className="hero-brand-pattern" aria-hidden="true"><span>VV</span><small>Creative · Media · Digital</small></div>
+              <Image src="/images/about-cover.svg" alt="Portrait of Victor Visuals founder Jason Victor" width={900} height={1352} priority className="hero-photo" />
               <div className="hero-photo-shade" />
               <div className="hero-photo-caption"><span>Purposeful craft.</span><span>People first.</span></div>
             </div>
