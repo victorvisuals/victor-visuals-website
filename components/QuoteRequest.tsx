@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { ArrowUpRight } from "lucide-react";
 
 const CONTACT_EMAIL = "victorvisuals.prod@gmail.com";
 
@@ -33,7 +32,7 @@ export default function QuoteRequest() {
         </select>
       </label>
       <label><span>Project details</span><textarea name="details" required minLength={10} rows={4} placeholder="What are you hoping to create or improve?" /></label>
-      <button type="submit" className="button button--gold quote-form__submit">Prepare email <ArrowUpRight size={17} aria-hidden="true" /></button>
+      <button type="submit" className="button button--gold quote-form__submit">Prepare email </button>
       <p className="quote-form__privacy">This form opens a draft in your email app. Your details are not sent or stored on this website.</p>
       {status ? <p className="quote-form__status" role="status">{status}</p> : null}
     </form>
