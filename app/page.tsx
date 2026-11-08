@@ -11,9 +11,8 @@ import {
 import QuoteRequest from "@/components/QuoteRequest";
 
 const websitePrices = [
-  { name: "Starter website", price: "$500", detail: "Up to 4 pages", copy: "A clean, responsive foundation for a small business, ministry, or personal brand." },
-  { name: "Professional website", price: "$850", detail: "Up to 7 pages", copy: "A more complete site with custom page layouts, contact forms, and room to grow.", featured: true },
-  { name: "Advanced / custom", price: "$1,500+", detail: "Custom scope", copy: "For larger sites, special features, integrations, or more involved workflows." },
+  { name: "Starter website", price: "$500", detail: "Up to 3 pages", copy: "A clean, responsive foundation for a small business, ministry, or personal brand." },
+  { name: "Professional website", price: "$850", detail: "Up to 5 pages", copy: "A more complete site with custom page layouts, contact forms, and room to grow.", featured: true },
 ];
 
 const photoPrices = [
@@ -101,13 +100,13 @@ export default function Home() {
             <div><h3>Website design &amp; development</h3><p>Mobile-ready layouts, clear navigation, and useful contact paths. Project content and scope are confirmed together before work begins.</p></div>
             <span className="service-intro-card__label">One-time projects</span>
           </div>
-          <div className="price-grid price-grid--three">{websitePrices.map((item) => <PriceCard key={item.name} {...item} />)}</div>
-          <div className="add-on-row"><div><span>Website redesign</span><strong>$350+</strong></div><div><span>Additional page</span><strong>$75</strong></div></div>
+          <div className="price-grid price-grid--two">{websitePrices.map((item) => <PriceCard key={item.name} {...item} />)}</div>
+          <div className="add-on-row"><div><span>Website redesign</span><strong>$350+</strong></div><div><span>Additional page</span><strong>$60</strong></div></div>
 
           <div className="maintenance-block">
             <div className="maintenance-block__heading"><div><p className="eyebrow">Ongoing care</p><h3>Website maintenance</h3></div><p>Keep your site current with a plan that fits your needs.</p></div>
             <div className="maintenance-grid">
-              <article className="maintenance-card"><div className="maintenance-card__title"><h4>Basic</h4><strong>$40<span>/month</span></strong></div><p>Minor text and image updates, plus basic website checks.</p></article>
+              <article className="maintenance-card"><div className="maintenance-card__title"><h4>Basic</h4><strong>$50<span>/month</span></strong></div><p>Minor text and image updates, plus basic website checks.</p></article>
               <article className="maintenance-card maintenance-card--featured"><div className="maintenance-card__title"><h4>Standard</h4><strong>$85<span>/month</span></strong></div><p>Everything in Basic, plus up to 2 hours of website updates and support each month.</p></article>
             </div>
             <p className="fine-print">Work outside a plan is quoted separately. Hosting, domain registration, and software costs are billed separately when applicable.</p>
@@ -179,7 +178,7 @@ export default function Home() {
               <div className="portfolio-caption"><div><p className="eyebrow">Technology</p><h3>Workspaces that work</h3></div><span>03</span></div>
             </article>
           </div>
-          <p className="portfolio-private-note">Portfolio and client photos are not included in this repository. Work will be added only after publishing permission is confirmed.</p>
+          
         </div>
       </section>
 
