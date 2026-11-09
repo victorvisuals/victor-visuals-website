@@ -61,7 +61,7 @@ export default function Home() {
               <div className="hero-photo-shade" />
               <div className="hero-photo-caption"><span>Purposeful craft.</span><span>People first.</span></div>
             </div>
-            <p className="hero-scripture">Hebrews 11:1</p>
+            <p className="hero-scripture">“Now faith is the substance of things hoped for, the evidence of things not seen.”<span>Hebrews 11:1 · KJV</span></p>
             <div className="hero-mark-card" aria-hidden="true">
               <Image src="/images/logo.png" alt="" width={72} height={72} />
               <span>Victor Visuals</span><small>Creative media &amp; technology</small>
@@ -229,7 +229,7 @@ export default function Home() {
       <footer className="site-footer">
         <div className="site-container site-footer__inner">
           <a className="footer-brand" href="#home"><Image src="/images/logo.png" alt="" width={38} height={38} /><span>Victor Visuals<small>Stories through the lens. Solutions beyond the frame.</small></span></a>
-          <p>© {new Date().getFullYear()} Victor Visuals · Creative media &amp; technology<span className="footer-scripture">1 Thessalonians 5:18</span></p>
+          <p>© {new Date().getFullYear()} Victor Visuals · Creative media &amp; technology<span className="footer-scripture">“In every thing give thanks: for this is the will of God in Christ Jesus concerning you.” — 1 Thessalonians 5:18 · KJV</span></p>
           <a href="#home" className="footer-top">Back to top </a>
         </div>
       </footer>
