@@ -396,3 +396,7 @@ a.portfolio-project:hover, a.portfolio-project:focus-visible { border-color: var
 .portfolio-project__name { font-size: 10px; font-weight: 700; overflow-wrap: anywhere; }
 .portfolio-project__type { color: #c3c9c8; font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
 .portfolio-project--progress { border-style: dashed; }
+
+
+.hero-scripture { margin: 12px 0 0; color: #d4d8d7; font-family: var(--display-font); font-size: 14px; font-style: italic; letter-spacing: .03em; text-align: center; }
+.footer-scripture { display: block; margin-top: 3px; color: #a9b0af; font-size: 8px; letter-spacing: .04em; }
