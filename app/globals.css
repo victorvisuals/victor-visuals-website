@@ -398,5 +398,6 @@ a.portfolio-project:hover, a.portfolio-project:focus-visible { border-color: var
 .portfolio-project--progress { border-style: dashed; }
 
 
-.hero-scripture { margin: 12px 0 0; color: #d4d8d7; font-family: var(--display-font); font-size: 14px; font-style: italic; letter-spacing: .03em; text-align: center; }
-.footer-scripture { display: block; margin-top: 3px; color: #a9b0af; font-size: 8px; letter-spacing: .04em; }
+.hero-scripture { max-width: min(100%, 430px); margin: 12px auto 0; color: #d4d8d7; font-family: var(--display-font); font-size: 13px; font-style: italic; letter-spacing: .01em; line-height: 1.55; text-align: center; }
+.hero-scripture span { display: block; margin-top: 4px; color: var(--gold-light); font-family: var(--body-font); font-size: 8px; font-style: normal; letter-spacing: .16em; text-transform: uppercase; }
+.footer-scripture { display: block; max-width: 420px; margin-top: 4px; color: #a9b0af; font-size: 8px; letter-spacing: .02em; line-height: 1.55; }
