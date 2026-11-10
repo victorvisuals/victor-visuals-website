@@ -167,6 +167,10 @@ export default function Home() {
                     <span className="portfolio-project__name">victorvisuals.tech</span>
                     <span className="portfolio-project__type">Website</span>
                   </a>
+                  <div className="portfolio-project">
+                    <span className="portfolio-project__name">Network + practice exam</span>
+                    <span className="portfolio-project__type">Website</span>
+                  </div>
                   <div className="portfolio-project portfolio-project--progress">
                     <span className="portfolio-project__name">Homestead Assembly</span>
                     <span className="portfolio-project__type">In progress</span>
