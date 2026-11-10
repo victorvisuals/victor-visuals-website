@@ -216,6 +216,7 @@ export default function Home() {
             <div className="contact-details">
               <p className="contact-label">Get in touch</p>
               <a className="contact-email" href="mailto:victorvisuals.prod@gmail.com">victorvisuals.prod@gmail.com</a>
+              <div className="contact-detail-line"><span>Cash App</span><strong>$victorvisuals</strong></div>
               <div className="contact-detail-line"><span>Website</span><a href="https://victorvisuals.tech">victorvisuals.tech</a></div>
               <div className="contact-detail-line"><span>Availability</span><strong>Remote &amp; in person</strong></div>
               <p className="fine-print fine-print--light">Travel is arranged case by case. Equipment, materials, hosting, domain registration, and software may be additional.</p>
