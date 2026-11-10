@@ -403,6 +403,3 @@ a.portfolio-project:hover, a.portfolio-project:focus-visible { border-color: var
 .footer-scripture { display: block; max-width: 420px; margin-top: 4px; color: #a9b0af; font-size: 8px; letter-spacing: .02em; line-height: 1.55; }
 
 
-.portfolio-art--photo { display: block; padding: 0; }
-.portfolio-art--photo::before, .portfolio-art--photo::after { content: none; }
-.portfolio-art--photo .portfolio-photo { object-position: center 45%; }
