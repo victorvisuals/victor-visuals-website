@@ -180,10 +180,8 @@ export default function Home() {
               <div className="portfolio-caption"><div><p className="eyebrow">Photography · Video</p><h3>Stories with intention</h3></div><span>02</span></div>
             </article>
             <article className="portfolio-card">
-              <div className="portfolio-art portfolio-art--photo">
-                <Image src="/images/videographer-patio.svg" alt="Videographer holding a camera on a patio" fill sizes="(max-width: 760px) 100vw, 35vw" className="portfolio-photo" />
-              </div>
-              <div className="portfolio-caption"><div><p className="eyebrow">Videography</p><h3>Behind the camera</h3></div><span>03</span></div>
+              <div className="portfolio-art portfolio-art--technology"><Laptop size={42} strokeWidth={1.2} aria-hidden="true" /></div>
+              <div className="portfolio-caption"><div><p className="eyebrow">Technology</p><h3>Workspaces that work</h3></div><span>03</span></div>
             </article>
           </div>
           
@@ -193,7 +191,7 @@ export default function Home() {
       <section id="about" className="content-section section-paper">
         <div className="site-container about-layout">
           <div className="about-photo-wrap">
-            <div className="about-brand-art" aria-hidden="true"><span className="about-brand-art__letters">VV</span><span className="about-brand-art__caption">Creative · Media · Digital</span></div>
+            <Image src="/images/videographer-patio.svg" alt="Videographer holding a camera on a patio" width={900} height={1200} className="about-photo" />
             <div className="about-photo-tag"><Image src="/images/logo.png" alt="" width={34} height={34} /><span>Victor Visuals</span></div>
           </div>
           <div className="about-copy">
