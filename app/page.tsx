@@ -180,8 +180,10 @@ export default function Home() {
               <div className="portfolio-caption"><div><p className="eyebrow">Photography · Video</p><h3>Stories with intention</h3></div><span>02</span></div>
             </article>
             <article className="portfolio-card">
-              <div className="portfolio-art portfolio-art--technology"><Laptop size={42} strokeWidth={1.2} aria-hidden="true" /></div>
-              <div className="portfolio-caption"><div><p className="eyebrow">Technology</p><h3>Workspaces that work</h3></div><span>03</span></div>
+              <div className="portfolio-art portfolio-art--photo">
+                <Image src="/images/videographer-patio.svg" alt="Videographer holding a camera on a patio" fill sizes="(max-width: 760px) 100vw, 35vw" className="portfolio-photo" />
+              </div>
+              <div className="portfolio-caption"><div><p className="eyebrow">Videography</p><h3>Behind the camera</h3></div><span>03</span></div>
             </article>
           </div>
           
