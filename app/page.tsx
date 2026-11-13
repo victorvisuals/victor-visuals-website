@@ -62,10 +62,6 @@ export default function Home() {
               <div className="hero-photo-caption"><span>Purposeful craft.</span><span>People first.</span></div>
             </div>
             <p className="hero-scripture">“Now faith is the substance of things hoped for, the evidence of things not seen.”<span>Hebrews 11:1 · KJV</span></p>
-            <div className="hero-mark-card" aria-hidden="true">
-              <Image src="/images/logo.png" alt="" width={72} height={72} />
-              <span>Victor Visuals</span><small>Creative media &amp; technology</small>
-            </div>
             <span className="hero-side-note" aria-hidden="true">EST. WITH INTENTION</span>
           </div>
         </div>
