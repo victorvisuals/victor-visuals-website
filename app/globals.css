@@ -283,7 +283,12 @@ img { max-width: 100%; }
   .hero-meta { margin-top: 23px; font-size: 8px; }
   .hero-visual { width: min(76%, 330px); justify-self: center; }
   .hero-photo-frame { aspect-ratio: .9; }
-  .hero-mark-card { left: -20%; }
+  .hero-mark-card {
+    position: relative;
+    inset: auto;
+    width: min(100%, 240px);
+    margin: 16px auto 0;
+  }
   .hero-side-note { right: -23px; font-size: 7px; }
     .intro-strip__inner > p { font-size: 17px; }
   .intro-strip__tags span { font-size: 9px; }
